@@ -7,7 +7,7 @@ import pinecone
 from openai import OpenAI
 
 # Assuming you have the secrets manager setup, otherwise replace with your own method for securing API keys
-api_key = 'sk-proj-BCtNALBJdUhNjwA2XKPoT3BlbkFJ14y9f2uLvjfWYGvLCL2r'
+api_key = 'sk-proj-P8W35PpJuGBjUNF5I7azT3BlbkFJOYr8iWw4Rx7Mo7iPD6en'
 os.environ["OPENAI_API_KEY"] = api_key
 client = OpenAI()
 pc = Pinecone(api_key="7c0c8ae3-71d7-435b-9132-8ed9c7dfb3ff",environment='us-west1-gcp-free')
