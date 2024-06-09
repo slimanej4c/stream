@@ -47,7 +47,7 @@ pydantic==2.7.3
 pydantic_core==2.18.4
 Pygments==2.18.0
 python-dateutil==2.9.0
-pywin32==306
+pywin32==300
 pyzmq==26.0.3
 referencing==0.35.1
 requests==2.32.3
